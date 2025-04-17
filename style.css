@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: linear-gradient(to right, #000011, #1a1a40);
+    color: #ffffff;
+    background-size: cover;
+  }
+
+  h1, h2 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  th, td {
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+  }
+
+  th {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffd700;
+    font-size: 1.1em;
+  }
+
+  img {
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fff;
+  }
+
+  tr:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+    transition: background 0.3s;
+  }
